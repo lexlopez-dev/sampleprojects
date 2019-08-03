@@ -1,0 +1,36 @@
+/*Selector {
+    Property: value;
+
+}*/
+
+body {
+  background-image: url(cacti.jpeg);
+  background-size: cover;
+}
+h2,
+p {
+  color: navy;
+  text-align: center;
+  border: 5px solid rgba(7, 96, 206, 0.4);
+  line-height: 30px;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 150%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+li {
+  display: inline;
+}
+
+.webtext {
+  color: black;
+}
+
+#div1 {
+  background: rgba(0, 255, 0, 0.1);
+  color: blueviolet;
+}
+
+img {
+  float: left;
+}
