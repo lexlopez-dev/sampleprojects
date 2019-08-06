@@ -4,6 +4,9 @@ h1 {
 }
 
 .robots {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
 }
 
 .head,
@@ -35,7 +38,8 @@ h1 {
   width: 300px;
   height: 150px;
   display: flex;
-  
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .left_arm,
@@ -57,6 +61,8 @@ h1 {
   width: 200px;
   height: 200px;
   border-radius: 0 0 50px 50px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .lower_body {
