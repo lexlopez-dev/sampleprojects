@@ -18,6 +18,7 @@ body {
   height: 100vh;
   margin: 0 auto;
   /* CSS Smooth Scroll */
+  overflow: hidden;
   overflow-y: scroll;
   scroll-behavior: smooth;
   scroll-snap-type: y mandatory;
