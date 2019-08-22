@@ -37,7 +37,7 @@ section {
 }
 
 body {
-  background-color: gray;
+  background-color: blue;
 }
 
 header {
@@ -61,4 +61,16 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 1rem 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.nav-brand {
+  width: 2rem;
+}
+
+.menu-icons {
+  font-size: 3.5rem;
+  color: #fafafa;
+  cursor: pointer;
 }
