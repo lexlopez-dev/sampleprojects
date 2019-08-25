@@ -8,11 +8,15 @@
     />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Lopez | Portfolio</title>
-    <!--Ion Icons-->
     <link
-      href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css"
       rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
     />
+
+    <!--Ion Icons-->
+    <script src="https://kit.fontawesome.com/80eef9efe1.js"></script>
     <!--Google Fonts-->
     <link
       href="https://fonts.googleapis.com/css?family=Nunito&display=swap"
@@ -25,7 +29,6 @@
     <!--Our own stylesheet-->
     <link rel="stylesheet" href="styles.css" />
   </head>
-
   <body>
     <header>
       <div class="container">
@@ -35,47 +38,88 @@
           </div>
 
           <div class="menu-icons open">
-            <i class="icon ion-md-menu"></i>
+            <i class="fas fa-bars"></i>
           </div>
 
           <ul class="nav-list">
             <div class="menu-icons close">
-              <i class="icon ion-md-close"></i>
+              <i class="fas fa-times"></i>
             </div>
             <li class="nav-item">
-              <a href="#" class="nav-link">Home</a>
+              <a href="#home" class="nav-link">Home</a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link">About</a>
+              <a href="#about" class="nav-link">About</a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link">Portfolio</a>
+              <a href="#portfolio" class="nav-link">Portfolio</a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link">Contact</a>
+              <a href="#contact" class="nav-link">Contact</a>
             </li>
           </ul>
         </nav>
       </div>
     </header>
 
-    <section class="hero">
-      <div class="container">
-        <div class="main-message">
-          <h1>Alejandro Lopez</h1>
-          <h3>Developer | Cloud Architect</h3>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique
-            maiores a est exercitationem eum saepe, delectus veniam. Provident
-            corrupti esse eveniet adipisci accusantium aperiam earum. Possimus
-            amet vero illum suscipit?
-          </p>
-          <div class="cta">
-            <a href="#" class="btn">Contact Me</a>
+    <main>
+      <section id="home" class="hero">
+        <div class="container">
+          <div class="main-message">
+            <h1>Hello, I am Alejandro.</h1>
+            <h3>Developer | Cloud Architect</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Similique maiores a est exercitationem eum saepe, delectus veniam.
+              Provident corrupti esse eveniet adipisci accusantium aperiam
+              earum. Possimus amet vero illum suscipit?
+            </p>
+            <div class="cta">
+              <a href="#contact" class="btn">Contact Me</a>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+      <section id="about" class="content">
+        <div class="container">
+          <div class="title-heading">
+            <h1>About Me</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
+              cumque temporibus iusto suscipit quisquam sit delectus eligendi
+              molestias eos ratione. Maiores voluptatem maxime alias qui, itaque
+              dicta provident vitae explicabo.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="portfolio" class="content">
+        <div class="container">
+          <div class="title-heading">
+            <h1>Portfolio</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
+              cumque temporibus iusto suscipit quisquam sit delectus eligendi
+              molestias eos ratione. Maiores voluptatem maxime alias qui, itaque
+              dicta provident vitae explicabo.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="content">
+        <div class="container">
+          <div class="title-heading">
+            <h1>Contact</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam
+              cumque temporibus iusto suscipit quisquam sit delectus eligendi
+              molestias eos ratione. Maiores voluptatem maxime alias qui, itaque
+              dicta provident vitae explicabo.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
 
     <script type="text/javascript" src="scripts.js"></script>
   </body>
