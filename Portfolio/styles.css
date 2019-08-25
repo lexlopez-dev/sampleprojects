@@ -143,10 +143,10 @@ span {
   height: 80vh;
   background: linear-gradient(
       135deg,
-      rgba(9, 64, 116, 0.603) 0%,
-      rgba(6, 40, 95, 0.9) 100%
+      rgba(0, 0, 0, 0.8) 0%,
+      rgba(1, 5, 12, 0.8) 100%
     ),
-    url("images/header-bg.jpeg") center no-repeat;
+    url("images/header-bg2.jpeg") center no-repeat;
   background-size: cover;
   position: relative;
 }
