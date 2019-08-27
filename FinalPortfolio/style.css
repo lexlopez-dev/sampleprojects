@@ -387,11 +387,11 @@ button {
 
 /*--------------- services section starts  --------------- */
 
-.services {
+.skills {
   background: #161616;
 }
 
-.service {
+.skills {
   margin: 30px 0;
 }
 
@@ -409,48 +409,61 @@ button {
 
 /*--------------- our team section starts  --------------- */
 
-.team-member,
-.team-img {
+.portfolio-project,
+.project-img {
   position: relative;
 }
 
-.team-img {
+.project-img {
   background: grey;
   height: 340px;
 }
 
-.members {
+.projects {
   margin: 50px 0;
 }
 
-.team-title {
+.project-title {
   margin: 20px 0;
 }
 
-.team-title h5 {
+.project-title h5 {
   font-size: 28px;
 }
 
-.team-title span {
+.project-title span {
   font-size: 20px;
 }
 
-.team-member {
+.portfolio-project {
   overflow: hidden;
 }
 
-.team-one {
+.project-one {
   background: url(team-one.jpg) no-repeat 50% 50%;
   background-size: cover;
 }
 
-.team-two {
+.project-two {
   background: url(team-two.jpg) no-repeat 50% 50%;
   background-size: cover;
 }
 
-/*--------------- newsletter section starts  --------------- */
+.card{
+  position: relative;
+  margin: 0px 0;
+}
 
+.card-img-top{
+  width: 100%;
+  height: 22vw;
+  object-fit: cover;
+
+}
+
+/*--------------- newsletter section starts  --------------- */
+/* NOT CURRENTLY USING THIS SECTION */
+/*  
 .newsletter {
   padding: 140px 0;
   background: #161616;
@@ -499,8 +512,11 @@ button {
   font-family: Poppins !important;
 }
 
-/*--------------- contact section starts here --------------- */
+*/
 
+/*--------------- contact section starts here --------------- */
+             /* NOT CURRENTLY USING THIS SECTION */
+/*
 #contact-form {
   margin: 5% 0;
 }
@@ -557,8 +573,9 @@ textarea:focus {
     width: 98%;
   }
 }
+ */
 
-/*--------------- footer section starts here --------------- */
+/*--------------- footer/contact section starts here --------------- */
 
 .footer {
   background: #161616;
