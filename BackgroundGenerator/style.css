@@ -24,3 +24,8 @@ h3 {
   text-transform: none;
   letter-spacing: 0.01em;
 }
+
+#Random {
+  margin: 2%;
+  padding: 10px;
+}
