@@ -11,7 +11,7 @@ if (experience > 90) {
 
 //************************************************ */
 
-//Destructuring
+//DESTRUCTURING
 
 const obj = {
   player: "bobby",
@@ -30,4 +30,41 @@ let { wizardLevel } = obj;
 
 //*********************************************** */
 
-//template strings
+//TEMPLATE STRINGS
+
+const name = "Sally";
+const age = 25;
+const pet = "cat";
+
+//instead of doing this..
+const greeting =
+  "Hello" + name + ", you are" + age + " and have a " + pet + ".";
+
+//you can do this
+const greetingBest = `Hello ${name}, you are ${age} and have a ${pet}.`;
+//this ^ is much shorter and cleaner
+
+//defaults arguments "cat", "30", and no name
+function greet(name = "", age = 30, pet = "cat") {
+  return `Hello ${name}, you are ${age} and have a ${pet}.`;
+}
+
+//***************************************************************** */
+
+//SYMBOL
+
+let sym1 = Symbol();
+let sym2 = Symbol("foo");
+let sym3 = Symbol("foooo");
+
+//*************************************************************** */
+//ARROW FUNCTION
+
+//instead of doing this...
+function add(a, b) {
+  return a + b;
+}
+
+//you can do this...
+const add = (a, b) => a + b;
+//you don't have to use "return" if you are only using 1 return
